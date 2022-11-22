@@ -16,10 +16,10 @@
       {% when "gifts-for-future-wife" %}
         <p>Content about Gift For FF.</p>
       
-      {% else %}
-        Collection not match.
+    {% else %}
+      Collection not match.
 
-      {% endcase %}
+  {% endcase %}
 </div>
 
 ```
