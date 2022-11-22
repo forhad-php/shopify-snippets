@@ -2,7 +2,7 @@
 - Online store → Theme → Edit Code
 - Section → main-collection-product-grid.liquid
 
-```HTML
+```React
 <h2 class="rich-text__heading"><span>{{ collection.title }}</span></h2>
 <div class="main">
   {% assign handle = collection.handle %}
