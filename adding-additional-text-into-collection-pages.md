@@ -25,3 +25,8 @@
 </div>
 
 ```
+
+- To console log any object
+```JS
+<script>console.log({{ collection | json }});</script>
+```
