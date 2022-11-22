@@ -2,7 +2,7 @@
 - Online store → Theme → Edit Code
 - Section → main-collection-product-grid.liquid
 
-```JS
+```HTML
 <h2 class="rich-text__heading"><span>{{ collection.title }}</span></h2>
 <div class="main">
   {% assign handle = collection.handle %}
@@ -25,6 +25,6 @@
 ```
 
 - To console log any object
-```JS
+```HTML
 <script>console.log({{ collection | json }});</script>
 ```
