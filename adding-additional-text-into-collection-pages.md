@@ -14,10 +14,10 @@
         <p>Content about Gift For GF.</p>
 
       {% when "gifts-for-future-wife" %}
-      <p>Content about Gift For FF.</p>
+        <p>Content about Gift For FF.</p>
       
       {% else %}
-      Collection not match.
+        Collection not match.
 
       {% endcase %}
 </div>
